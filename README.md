@@ -138,7 +138,7 @@ totalData=$(head -1 $tFile04 | sed 's/.$//' | tr ':' '\n'| wc -l)
 
 Por cada linea se busco la información solicitada y esta se aplico el calculo de máximo, mínimo y promedio para luego ser almacenado en el documento de texto junto con el tiempo especifico de cada uno de ellos obtenidos.
 
-## Conclución
+## Conclusión
 
 En cuanto a lo abordado con anterioridad, es importante destacar que el trabajo realizado en este taller no esta realizado de manera eficiente pero se logró entender el funcionamiento de los script y el manejo de datos entre archivos de texto. De igual manera se rescata que el trabajar con un *cliente SSH* es una manera muy cómoda y eficiente a la hora de trabajar con datos y necesitar los analizar lo realizado.
 
